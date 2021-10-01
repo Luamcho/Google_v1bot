@@ -1,0 +1,24 @@
+{
+    "name":"Google-Bot",
+    "description":"Un bot de Telegram para hacer búsquedas en Google",
+    
+    "keywords":["Google" , "Search"],
+    
+    "repository":"https://github.com/Yanco148/Google-Bot",
+    
+    "env":{
+        "TOKEN":{
+            "description":"2027630920:AAF8OA1NTw49yOs0w_d0V5hGz9f-QoNZOtI",
+            "value":"TOKEN"
+        }
+    },
+    
+    "buildpacks":[
+        
+        {"url":"heroku/python"}
+        
+        ],
+    
+    "stack":"heroku-20"
+    
+}
