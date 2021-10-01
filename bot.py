@@ -12,7 +12,7 @@ import difflib
 	
 def repo(update, context):
 
-    update.message.reply_text('Acá encontraras el Código del Bot con el que podrás elaborar uno propio.\n\nhttps://github.com/Yanco148/Google-Bot')	
+    update.message.reply_text('Acá encontraras el Código del Bot con el que podrás elaborar uno propio.\n\nhttps://github.com/Luamcho/google-bot-prueba')	
 	
 		    			
 def start(update, context):
@@ -20,8 +20,8 @@ def start(update, context):
     update.message.reply_text(
         text=f'Hola {name} Para hacer una Búsqueda en Google vasta con poner el comando /buscar .\n\nSi quieres el Código fuente del Bot para elaborar el tuyo propio, puedes hacerlo utilizando este comando /repo pulsa el Botón Repositorio.\n\nNo olviden dejarme una estrellita en GitHub y seguirme que no cuesta nada 👌🏻👌🏻.  ',
         reply_markup=InlineKeyboardMarkup([                          
-            [InlineKeyboardButton(text='💬 Desarrollador 💬', url='https://twitter.com/Luamcho_dsg')],
-	    [InlineKeyboardButton(text='📦 Repositorio 📦', url='https://github.com/Yanco148/Google-Bot')],	
+            [InlineKeyboardButton(text='💬 Desarrollador 💬', url='https://t.me/Luamcho')],
+	    [InlineKeyboardButton(text='📦 Repositorio 📦', url='https://github.com/Luamcho/google-bot-prueba')],	
         ])
     )
 
