@@ -76,8 +76,8 @@ def callback_no(Update,context):
 	query.answer()
 	
 	query.edit_message_text(text=
-	"<b>📝Ok, solo reescribe lo que"
-	" quieres buscar</b>",
+	"<b>📝reescribe lo que"
+	" deceas buscar</b>",
 	parse_mode="html"
 	)
 
@@ -91,7 +91,7 @@ def callback_yes(Update,context):
 	query.answer()
 	
 	query.edit_message_text(text=
-	"<b>🧐 realizando la búsqueda ..."
+	"<b>🧐 buscando ..."
 	"</b>",
 	parse_mode="html")
 	
