@@ -8,7 +8,7 @@
     
     "env":{
         "TOKEN":{
-            "description":"2027630920:AAF8OA1NTw49yOs0w_d0V5hGz9f-QoNZOtI",
+            "description":"el TOKEN de su bot",
             "value":"TOKEN"
         }
     },
