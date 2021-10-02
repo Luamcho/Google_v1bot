@@ -12,7 +12,7 @@ import difflib
 	
 def repo(update, context):
 
-    update.message.reply_text('Acá encontraras el Código del Bot con el que podrás elaborar uno propio.\n\nhttps://github.com/Luamcho/google-bot-prueba')	
+    update.message.reply_text('Acá encontraras el Código del Bot con el que podrás elaborar uno propio.\n\nhttps://github.com/Luamcho/google-telegram-bot')	
 	
 		    			
 def start(update, context):
