@@ -91,7 +91,7 @@ def callback_yes(Update,context):
 	query.answer()
 	
 	query.edit_message_text(text=
-	"<b>🤗 realizar la búsqueda ..."
+	"<b>🤗 realizando la búsqueda ..."
 	"</b>",
 	parse_mode="html")
 	
