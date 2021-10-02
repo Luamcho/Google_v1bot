@@ -156,7 +156,7 @@ def callback_yes(Update,context):
 	r="\n".join(result)
 	
 	query.edit_message_text(text=
-	"<b>😁Resultados: "
+	"<b>📄Resultados: "
 	f"<u>{consulta}</u>\n\n{r}"
 	"</b>",
 	parse_mode="html",
