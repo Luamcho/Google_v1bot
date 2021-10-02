@@ -21,7 +21,7 @@ def start(update, context):
         text=f'Hola {name} Para hacer una Búsqueda en Google vasta con poner el comando /buscar .\n\nSi quieres el Código fuente del Bot para elaborar el tuyo propio, puedes hacerlo utilizando este comando /repo pulsa el Botón Repositorio.\n\nNo olviden dejarme una estrellita en GitHub y seguirme que no cuesta nada 👌🏻👌🏻.  ',
         reply_markup=InlineKeyboardMarkup([                          
             [InlineKeyboardButton(text='💬 Desarrollador 💬', url='https://t.me/Luamcho')],
-	    [InlineKeyboardButton(text='📦 Repositorio 📦', url='https://github.com/Luamcho/google-bot-prueba')],	
+	    [InlineKeyboardButton(text='📦 Repositorio 📦', url='https://github.com/Luamcho/google-telegram-bot')],	
         ])
     )
 
@@ -76,7 +76,7 @@ def callback_no(Update,context):
 	query.answer()
 	
 	query.edit_message_text(text=
-	"<b>🙂Ok, solo reescribe lo que"
+	"<b>📝Ok, solo reescribe lo que"
 	" quieres buscar</b>",
 	parse_mode="html"
 	)
@@ -91,7 +91,7 @@ def callback_yes(Update,context):
 	query.answer()
 	
 	query.edit_message_text(text=
-	"<b>🤗 realizando la búsqueda ..."
+	"<b>🧐 realizando la búsqueda ..."
 	"</b>",
 	parse_mode="html")
 	
