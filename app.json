@@ -4,7 +4,7 @@
     
     "keywords":["Google" , "Search"],
     
-    "repository":"https://github.com/Luamcho/google-bot-prueba",
+    "repository":"https://github.com/Luamcho/google-telegram-bot",
     
     "env":{
         "TOKEN":{
