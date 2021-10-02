@@ -18,16 +18,16 @@ def repo(update, context):
 def start(update, context):
     name=update.effective_user.first_name
     update.message.reply_text(
-        text=f'Hola {name} Para hacer una Búsqueda en Google vasta con poner el comando /buscar .\n\nSi quieres el Código fuente del Bot para elaborar el tuyo propio, puedes hacerlo utilizando este comando /repo pulsa el Botón Repositorio.\n\nNo olviden dejarme una estrellita en GitHub y seguirme que no cuesta nada 👌🏻👌🏻.  ',
+        text=f'Hola {name} Para hacer una Búsqueda en Google puedes poner el comando /buscar . ',
         reply_markup=InlineKeyboardMarkup([                          
-            [InlineKeyboardButton(text='💬 Desarrollador 💬', url='https://t.me/Luamcho')],
-	    [InlineKeyboardButton(text='📦 Repositorio 📦', url='https://github.com/Luamcho/google-telegram-bot')],	
+            [InlineKeyboardButton(text='⚜️ Desarrollador ⚜️', url='https://t.me/Luamcho')],
+	    [InlineKeyboardButton(text='🔰 Repo 🔰', url='https://github.com/Luamcho/google-telegram-bot')],	
         ])
     )
 
 
    
-#Comando que inicial Start
+#Comando que inicia Start
 
 def buscar(Update,context):
 	
@@ -98,7 +98,7 @@ def callback_yes(Update,context):
 
 	
 	results = search(consulta, 
-	stop = 15 )
+	stop = 10 )
 	
 	result=[]
 	n = 1
