@@ -1,6 +1,6 @@
 # Google-Bot
 
-<details> <summary><b>Telegram Bot</b></summary><br> <a href="http://t.me/luamcho_bot" ><img alt="Telegram" src="https://img.shields.io/badge/Google-Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> </a> </details> 
+<details> <summary><b>Telegram Bot</b></summary><br> <a href="http://t.me/Google_v1bot" ><img alt="Telegram" src="https://img.shields.io/badge/Google-Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> </a> </details> 
 
 
 
